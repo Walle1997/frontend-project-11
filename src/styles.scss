@@ -1,1 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
+
+// Переопределяю стиль .text-muted
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #6c757d !important;
+}
