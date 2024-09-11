@@ -1,0 +1,12 @@
+# Exported from Render on 2024-09-11T09:04:20Z
+services:
+- type: web
+  name: frontend-project-11
+  runtime: static
+  repo: https://github.com/Walle1997/frontend-project-11
+  buildCommand: NODE_ENV=production npx webpack
+  staticPublishPath: index.js
+  rootDir: src
+  previews:
+    generation: automatic
+version: "1"
