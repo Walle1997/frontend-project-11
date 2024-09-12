@@ -5,7 +5,7 @@ services:
   runtime: static
   repo: https://github.com/Walle1997/frontend-project-11
   buildCommand: npm ci & npm run build
-  staticPublishPath: index.js
+  staticPublishPath: dist
   rootDir: src
   previews:
     generation: automatic
