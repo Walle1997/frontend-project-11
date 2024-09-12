@@ -6,7 +6,6 @@ services:
   repo: https://github.com/Walle1997/frontend-project-11
   buildCommand: npm ci & npm run build
   staticPublishPath: dist
-  rootDir: src
   previews:
     generation: automatic
 version: "1"
