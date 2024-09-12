@@ -21,7 +21,7 @@ RSS Reader is a web application that allows users to subscribe to RSS feeds and 
 
 * Node js 
   ```sh 
-  Node js 18 version
+  Node js 20.14.0 version
   ```
 #### Installation
 
