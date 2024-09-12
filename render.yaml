@@ -4,7 +4,7 @@ services:
   name: frontend-project-11
   runtime: static
   repo: https://github.com/Walle1997/frontend-project-11
-  buildCommand: NODE_ENV=production npx webpack
+  buildCommand: npm ci & npm run build
   staticPublishPath: index.js
   rootDir: src
   previews:
