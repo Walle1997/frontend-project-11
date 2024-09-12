@@ -45,5 +45,8 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "lodash": "^4.17.21"
-  }
+  },
+  "engines": {
+  "node": "20.14.0"
+}
 }
