@@ -1,7 +1,7 @@
 [![Actions Status](https://github.com/Walle1997/frontend-project-11/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Walle1997/frontend-project-11/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0fa677088a3c75586629/maintainability)](https://codeclimate.com/github/Walle1997/frontend-project-11/maintainability)
 
-🚀# [RSS AGGREGATOR](https://frontend-project-11-5rch.onrender.com)🚀
+# 🚀[RSS AGGREGATOR](https://frontend-project-11-5rch.onrender.com)🚀
 RSS Reader is a web application that allows users to subscribe to RSS feeds and read their latest posts in a single place. The application updates the posts automatically, allowing users to stay up-to-date with their favorite websites without having to visit them individually.
 
 
