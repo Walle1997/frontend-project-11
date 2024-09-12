@@ -3,7 +3,7 @@ export default {
       h1RuName: 'RSS агрегатор',
       leadP: 'Начните читать RSS сегодня! Это легко, это красиво.',
       formFloatingDivLabel: 'Ссылка RSS',
-      textMutedP: 'Пример: https://www.henneth-annun.ru/',
+      textMutedP: 'Пример: https://lorem-rss.hexlet.app/feed?unit=year',
       btn: 'Добавить',
       textCenter: 'created by ',
       textCenterA: 'Hexlet',
