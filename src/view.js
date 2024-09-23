@@ -10,21 +10,29 @@ const renderErrors = (errors, i18nextInstance) => {
   };
   input.classList.remove('is-invalid');
   errorP.classList.remove('text-danger', 'text-success');
+
   if (errors.activeUrl) {
     setErrorState(errors.activeUrl.message);
-  } else if (errors.isRSSUrlError) {
+    return;
+  }
+
+  if (errors.isRSSUrlError) {
     setErrorState(i18nextInstance.t('notValidRSS'));
-  } else if (errors.isNetworkError) {
+    return;
+  }
+
+  if (errors.isNetworkError) {
     setErrorState(i18nextInstance.t('isNetworkError'));
-  } else {
-    switch (errors.type) {
-      case 'noRSS':
-      case 'networkError':
-        setErrorState(i18nextInstance.t(errors.type === 'noRSS' ? 'notValidRSS' : 'isNetworkError'));
-        break;
-      default:
-        throw new Error('Неизвестная ошибка');
-    }
+    return;
+  }
+
+  switch (errors.type) {
+    case 'noRSS':
+    case 'networkError':
+      setErrorState(i18nextInstance.t(errors.type === 'noRSS' ? 'notValidRSS' : 'isNetworkError'));
+      break;
+    default:
+      throw new Error('Неизвестная ошибка');
   }
 };
 
